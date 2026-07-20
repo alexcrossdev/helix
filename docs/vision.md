@@ -1,5 +1,10 @@
 # Helix Vision
 
+**Document Version:** 1.0 Draft
+**Architecture Version:** Helix ISA v1.0
+
+---
+
 ## Vision
 
 Helix is a 64-bit instruction set architecture (ISA) created for education, experimentation, and computer architecture research.
@@ -10,9 +15,13 @@ Instead, it serves as an open platform for learning, exploration, and innovation
 
 Helix is intended to grow into a complete ecosystem that includes an assembler, emulator, compiler, hardware implementation, operating system, and development tools, all built around a single, consistent architectural specification.
 
+---
+
 ## Mission
 
 To create an open and understandable computer architecture that enables people to learn, build, and experiment with every layer of a modern computing system.
+
+---
 
 ## Design Principles
 
@@ -40,6 +49,8 @@ Similar operations should behave similarly. Programmers should not need to memor
 
 The core instruction set should remain small and stable while allowing future versions to introduce optional extensions without breaking existing software.
 
+---
+
 ## Non-Goals
 
 Helix is **not** intended to:
@@ -49,6 +60,8 @@ Helix is **not** intended to:
 * Maximize benchmark performance at the expense of readability.
 * Accumulate decades of historical design compromises.
 * Become unnecessarily complex in pursuit of feature parity with existing architectures.
+
+---
 
 ## Long-Term Vision
 
